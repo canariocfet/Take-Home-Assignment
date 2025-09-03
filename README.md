@@ -2,13 +2,13 @@
 
 ## Fraud Detection Case – Proof of Concept
 
-This repository contains my submission for the **Snappt Data Scientist Take-Home Assignment**.  
+This repository contains my submission for the **Data Scientist/ML Engineer Take-Home Assignment**.  
 The objective was to build a small end-to-end fraud detection **proof-of-concept (POC)** and clearly communicate the approach within ~2 hours of work.
 
 ---
 
 ##  Repository Structure
-- **`Snappt Technical project test.ipynb`** – Main Jupyter Notebook with:
+- **`Technical project test.ipynb`** – Main Jupyter Notebook with:
   - Data exploration & preprocessing
   - Feature inspection (mutual information, feature importance)
   - Model training (RandomForest, XGBoost, Logistic Regression baseline)
@@ -65,7 +65,7 @@ The objective was to build a small end-to-end fraud detection **proof-of-concept
 
 ---
 
-## 📈 Next Steps
+##  Next Steps
 - Test robustness on more realistic datasets with overlapping fraud/clean distributions.
 - Extend explainability with SHAP values and partial dependence plots.
 - Implement live monitoring pipelines for drift and precision@recall metrics.
@@ -76,8 +76,8 @@ The objective was to build a small end-to-end fraud detection **proof-of-concept
 ##  Running the Notebook
 ```bash
 # Clone repository
-git clone https://github.com/<your-username>/snappt-fraud-detection-poc.git
-cd snappt-fraud-detection-poc
+git clone https://github.com/<your-username>/-fraud-detection-poc.git
+cd -fraud-detection-poc
 
 # Create environment & install requirements
 python3 -m venv venv
