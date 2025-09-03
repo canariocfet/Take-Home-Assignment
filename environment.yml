@@ -1,0 +1,14 @@
+name: canariodatascience
+channels:
+  - defaults
+dependencies:
+  - python=3.13
+  - pyspark
+  - scipy
+  - pandas-profiling
+  - statsmodels
+  - plotly
+  - sqlalchemy
+  - scikit-learn
+  - notebook
+prefix: C:\Users\Dell\anaconda3\envs\canariodatascience
